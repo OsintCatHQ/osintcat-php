@@ -17,14 +17,22 @@ class EmailOsintResponse extends JsonSerializableType
     public ?EmailOsintResults $results;
 
     /**
+     * @var ?UsageMeta $meta
+     */
+    #[JsonProperty('_meta')]
+    public ?UsageMeta $meta;
+
+    /**
      * @param array{
      *   results?: ?EmailOsintResults,
+     *   meta?: ?UsageMeta,
      * } $values
      */
     public function __construct(
         array $values = [],
     ) {
         $this->results = $values['results'] ?? null;
+        $this->meta = $values['meta'] ?? null;
     }
 
     /**
