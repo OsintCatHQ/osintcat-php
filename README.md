@@ -4,7 +4,7 @@ The official SDK for the [OsintCat API](https://docs.osintcat.net). Typed reques
 
 ```sh
 composer config repositories.osintcat vcs https://github.com/OsintCatHQ/osintcat-php
-composer require osintcat/osintcat-php guzzlehttp/guzzle
+composer require osintcat/osintcat guzzlehttp/guzzle
 ```
 
 The first line is needed until the SDK is listed on Packagist. The SDK sends requests through any PSR-18
