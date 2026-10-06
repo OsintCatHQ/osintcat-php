@@ -157,7 +157,7 @@ class OsintCatClient
             'X-API-KEY' => $apiKey,
             'X-Fern-Language' => 'PHP',
             'X-Fern-SDK-Name' => 'OsintCat',
-            'User-Agent' => 'osintcat/osintcat/1.0.0',
+            'User-Agent' => 'osintcat/osintcat-php/1.0.0',
         ];
 
         $this->options = $options ?? [];

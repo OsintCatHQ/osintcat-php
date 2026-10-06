@@ -5,7 +5,7 @@
   "generatorConfig": {
     "namespace": "OsintCat",
     "clientName": "OsintCatClient",
-    "packageName": "osintcat/osintcat",
+    "packageName": "osintcat/osintcat-php",
     "maxRetries": 0,
     "composerJson": {
       "description": "Official SDK for the OsintCat API",
@@ -30,7 +30,7 @@
       }
     }
   },
-  "originGitCommit": "6468fa5a8eda375804c6d6c752339dd34cb31e9b",
+  "originGitCommit": "e51cd45353f38c2ed242b33eebc38f5c4ddd3f9d",
   "originGitCommitIsDirty": true,
   "invokedBy": "manual",
   "requestedVersion": "1.0.0",
