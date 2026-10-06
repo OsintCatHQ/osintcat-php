@@ -1,0 +1,8 @@
+/tests export-ignore
+/.fern export-ignore
+/.github export-ignore
+/reference.md export-ignore
+/phpunit.xml export-ignore
+/phpstan.neon export-ignore
+/CONTRIBUTING.md export-ignore
+/.fernignore export-ignore

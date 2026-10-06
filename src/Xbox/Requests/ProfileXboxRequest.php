@@ -1,0 +1,24 @@
+<?php
+
+namespace OsintCat\Xbox\Requests;
+
+use OsintCat\Core\Json\JsonSerializableType;
+
+class ProfileXboxRequest extends JsonSerializableType
+{
+    /**
+     * @var string $username The Xbox username.
+     */
+    public string $username;
+
+    /**
+     * @param array{
+     *   username: string,
+     * } $values
+     */
+    public function __construct(
+        array $values,
+    ) {
+        $this->username = $values['username'];
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "cliVersion": "5.112.0",
+  "generatorName": "fernapi/fern-php-sdk",
+  "generatorVersion": "2.11.1",
+  "generatorConfig": {
+    "namespace": "OsintCat",
+    "clientName": "OsintCatClient",
+    "packageName": "osintcat/osintcat-php",
+    "maxRetries": 0,
+    "composerJson": {
+      "description": "Official SDK for the OsintCat API",
+      "license": "MIT",
+      "homepage": "https://docs.osintcat.net",
+      "keywords": [
+        "osintcat",
+        "osint",
+        "api",
+        "sdk"
+      ],
+      "authors": [
+        {
+          "name": "OsintCat",
+          "email": "support@osintcat.net"
+        }
+      ],
+      "support": {
+        "docs": "https://docs.osintcat.net",
+        "issues": "https://github.com/OsintCatHQ/osintcat-php/issues",
+        "source": "https://github.com/OsintCatHQ/osintcat-php"
+      }
+    }
+  },
+  "originGitCommit": "792dc6cbf32f5af883707d156ec75ed19ef0a207",
+  "originGitCommitIsDirty": true,
+  "invokedBy": "manual",
+  "requestedVersion": "1.0.0",
+  "ciProvider": null
+}
