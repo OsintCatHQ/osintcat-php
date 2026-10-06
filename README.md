@@ -3,12 +3,10 @@
 The official SDK for the [OsintCat API](https://docs.osintcat.net). Typed requests and responses for every endpoint. PHP 8.1+.
 
 ```sh
-composer config repositories.osintcat vcs https://github.com/OsintCatHQ/osintcat-php
 composer require osintcat/osintcat-php guzzlehttp/guzzle
 ```
 
-The first line is needed until the SDK is listed on Packagist. The SDK sends requests through any PSR-18
-HTTP client; Guzzle is one.
+The SDK sends requests through any PSR-18 HTTP client; Guzzle is one.
 
 ## API key
 
